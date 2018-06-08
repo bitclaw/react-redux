@@ -14,16 +14,20 @@ class App extends Component {
         // };
     }
 
-    // const counter = (state=0, action) => {
+    // counter = (state=0, action) => {
     //     switch (action.type) {
     //         case 'INCREMENT':
     //             return state +1;
     //         case 'DECREMENT':
-    //             return state +1;
+    //             return state -11;
     //         default:
     //             return state;
     //     }
     // };
+
+    // expect(
+    //     counter(0,{type: 'INCREMENT'})
+    // ).toEqual(1);
 
     render() {
         return (
