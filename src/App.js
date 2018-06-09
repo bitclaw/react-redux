@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +6,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="App-title">Welcome to React</h1>
+                    <h1 className="App-title">Todo List</h1>
                 </header>
                 <div className="Todo-App">
                     <form>
@@ -27,9 +26,6 @@ class App extends Component {
                         </div>
                     </form>
                 </div>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
             </div>
         );
     }
