@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TodoItem = ({id,name,isComplete}) => (
-    <li key={id}>
+    <li>
         <input type="checkbox" defaultChecked={isComplete}/>
         {name}
     </li>
@@ -10,7 +10,7 @@ const TodoItem = ({id,name,isComplete}) => (
 export default (props) => (
     <div className="Todo-List">
         <ul>
-            {props.todos.map(todo => <TodoItem {...todo}/>)}
+            {props.todos.map(todo => <TodoItem key={todo.id} {...todo}/>)}
         </ul>
     </div>
 )
