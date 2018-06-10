@@ -40,4 +40,20 @@ li {
   bottom: 10px;
 }
 
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-tiem button {
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: red
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
 
