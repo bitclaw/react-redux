@@ -14,7 +14,8 @@ export const loadTodos = (todos)  => ({type: TODOS_LOAD, payload: todos})
 export const fetchTodos = () => {
     return (dispatch) => {
         getTodos()
-        .then(todos => dispatch(loadTodos(todos)))
+            .then(todos => dispatch(loadTodos(todos)))
+        //.then(todos => console.log(todos))
     }
 }
 
