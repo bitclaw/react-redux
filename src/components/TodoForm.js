@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default (props) => {
+    console.log('Rendering form')
     const {currentTodo, changeCurrent} = props
     const handleInputChange = (event) => {
         const value = event.target.value

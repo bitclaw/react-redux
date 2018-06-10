@@ -7,7 +7,7 @@ const TodoItem = ({id,name,isComplete}) => (
     </li>
 )
 
-export default (props) => (
+export default (props) => console.log('List rendering') || (
     <div className="Todo-List">
         <ul>
             {props.todos.map(todo => <TodoItem key={todo.id} {...todo}/>)}
