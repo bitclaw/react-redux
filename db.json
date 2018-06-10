@@ -1,6 +1,6 @@
 {
   "todos": [
-    {"id":1,"name":"Create Static UI", "isComplete": true},
+    {"id":1,"name":"Go to the doctor's", "isComplete": true},
     {"id":2,"name":"Create Static UI", "isComplete": false},
     {"id":3,"name":"Create Static UI", "isComplete": false},
     {"id":4,"name":"Added todo", "isComplete": false}
