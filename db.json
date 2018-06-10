@@ -1,9 +1,49 @@
 {
   "todos": [
-    {"id":1,"name":"Configure server", "isComplete": true},
-    {"id":2,"name":"Start server", "isComplete": false},
-    {"id":3,"name":"Load data into app", "isComplete": false},
-    {"id":4,"name":"Add records", "isComplete": false},
-    {"id":5,"name":"Update records", "isComplete": false}
+    {
+      "id": 1,
+      "name": "Configure server",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Start server",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "Load data into app",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "name": "Add records",
+      "isComplete": false
+    },
+    {
+      "id": 5,
+      "name": "Update records",
+      "isComplete": false
+    },
+    {
+      "name": "Test",
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "name": "Hello there",
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "name": "Anothe Test",
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "name": "asdfasdf",
+      "isComplete": false,
+      "id": 9
+    }
   ]
 }
