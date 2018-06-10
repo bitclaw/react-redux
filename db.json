@@ -8,22 +8,22 @@
     {
       "id": 2,
       "name": "Start server",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 3,
       "name": "Load data into app",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 4,
       "name": "Add records",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 5,
       "name": "Update records",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "name": "Test",
