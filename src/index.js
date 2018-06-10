@@ -7,5 +7,5 @@ import store from './store'
 
 const state = store.getState()
 
-ReactDOM.render(<App todos = {...state} />, document.getElementById('root'));
+ReactDOM.render(<App todos = {state.todos} />, document.getElementById('root'));
 registerServiceWorker();
