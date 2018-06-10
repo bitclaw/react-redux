@@ -8,7 +8,7 @@ import store from './store'
 
 ReactDOM.render(
         <Provider store={store}>
-            <App changeCurrent={updateCurrent}/>
+            <App />
         </Provider>,
         document.getElementById('root'));
 

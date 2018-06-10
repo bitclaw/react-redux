@@ -5,7 +5,6 @@ import TodoList from './components/TodoList'
 import {connect} from 'react-redux'
 import {updateCurrent} from './reducers/todo'
 import {bindActionCreators} from 'redux'
-import store from "./store";
 
 class App extends Component {
     render() {
