@@ -1,7 +1,7 @@
 const initState = {
     todos: [
         {id:1,name:'Create a store', isComplete: true},
-        {id:2,name:'Load state through a store', isComplete: false},
+        {id:2,name:'Load state through a store', isComplete: true},
         {id:3,name:'Handle state changes with Redux', isComplete: false},
     ]
 }
